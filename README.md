@@ -36,7 +36,7 @@ An interactive web application for visualizing algorithms and data structures in
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/algorithm-visualizer.git
+git clone https://github.com/m8nt0/algorithm-visualizer.git
 
 # Navigate to project directory
 cd algorithm-visualizer
@@ -68,10 +68,10 @@ algorithm visualization, data structures, computer science, educational tool, le
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/algorithm-visualizer&type=Date)](https://star-history.com/#yourusername/algorithm-visualizer&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=m8nt0/algorithm-visualizer&type=Date)](https://star-history.com/#m8nt0/algorithm-visualizer&Date)
 
 ## 📧 Contact
 
 Your Name - [@yourusername](https://twitter.com/yourusername)
 
-Project Link: [https://github.com/yourusername/algorithm-visualizer](https://github.com/yourusername/algorithm-visualizer)
+Project Link: [https://github.com/m8nt0/algorithm-visualizer](https://github.com/m8nt0/algorithm-visualizer)

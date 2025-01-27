@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/yourusername/algorithm-visualizer.git"
+		"url": "git+https://github.com/m8nt0/algorithm-visualizer.git"
 	},
 	"keywords": [
 		"algorithm",
@@ -25,12 +25,14 @@
 		"learning",
 		"interactive"
 	],
-	"author": "Your Name <your.email@example.com>",
+	"author": "M8ntO",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/yourusername/algorithm-visualizer/issues"
+		"url": "https://github.com/m8nt0/algorithm-visualizer/issues"
 	},
-	"homepage": "https://github.com/yourusername/algorithm-visualizer#readme",
+	"homepage": {
+		"url": "https://github.com/m8nt0/algorithm-visualizer#readme"
+	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.0",
