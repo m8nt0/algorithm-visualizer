@@ -1,0 +1,48 @@
+{
+	"name": "algorithm-visualizer",
+	"version": "0.1.0",
+	"description": "Interactive visualization tool for algorithms and data structures",
+	"private": false,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/yourusername/algorithm-visualizer.git"
+	},
+	"keywords": [
+		"algorithm",
+		"visualization",
+		"data-structures",
+		"education",
+		"svelte",
+		"typescript",
+		"computer-science",
+		"learning",
+		"interactive"
+	],
+	"author": "Your Name <your.email@example.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/yourusername/algorithm-visualizer/issues"
+	},
+	"homepage": "https://github.com/yourusername/algorithm-visualizer#readme",
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"@types/node": "^20.0.0",
+		"monaco-editor": "^0.45.0",
+		"svelte": "^4.2.7",
+		"svelte-check": "^3.6.0",
+		"svelte-preprocess": "^5.1.3",
+		"tslib": "^2.4.1",
+		"typescript": "^5.0.0",
+		"vite": "^5.0.3"
+	},
+	"type": "module"
+}
