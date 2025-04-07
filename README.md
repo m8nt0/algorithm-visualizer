@@ -70,8 +70,4 @@ algorithm visualization, data structures, computer science, educational tool, le
 
 [![Star History Chart](https://api.star-history.com/svg?repos=m8nt0/algorithm-visualizer&type=Date)](https://star-history.com/#m8nt0/algorithm-visualizer&Date)
 
-## 📧 Contact
 
-Your Name - [@yourusername](https://twitter.com/yourusername)
-
-Project Link: [https://github.com/m8nt0/algorithm-visualizer](https://github.com/m8nt0/algorithm-visualizer)
