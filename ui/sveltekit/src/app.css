@@ -1,0 +1,78 @@
+/* These are Tailwind CSS directives that will be processed during build */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Main layout styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #1e293b;
+  background-color: #f8fafc;
+}
+
+/* Common components styling */
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-800 hover:bg-gray-300;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden border border-gray-200;
+  }
+  
+  .card-header {
+    @apply p-4 border-b border-gray-200 bg-gray-50;
+  }
+  
+  .card-content {
+    @apply p-4;
+  }
+  
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+}
+
+/* Monaco editor overrides */
+.monaco-editor .highlighted-line {
+  background-color: rgba(255, 165, 0, 0.2) !important;
+  border-left: 2px solid orange !important;
+}
+
+.monaco-editor .margin-view-overlays .highlighted-glyph {
+  background-color: orange;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+} 

@@ -21,18 +21,3 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
-
-/*/thoughts.md
-/thoughts.md
-thoughts.md
-
-# node_modules
-node_modules
-/node_modules
-/*/node_modules
-
-# dist
-dist
-/dist
-/*/dist
-

@@ -1,77 +1,90 @@
-# Algorithm & Data Structure Visualizer 🎯
+# Universal DSA Visualizer Playground
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![TypeScript](https://img.shields.io/badge/TypeScript-4.9+-blue.svg)](https://www.typescriptlang.org/)
-[![Svelte](https://img.shields.io/badge/Svelte-4.2+-orange.svg)](https://svelte.dev/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+A modular, framework-agnostic architecture for visualizing and learning about Data Structures and Algorithms.
 
-An interactive web application for visualizing algorithms and data structures in real-time. Built with Svelte and TypeScript, this project aims to make learning computer science concepts more intuitive and engaging.
+## Features
 
-## ✨ Features
+- 🧩 **Modular Architecture**: Clean separation between core logic and UI
+- 📊 **Interactive Visualizations**: Step-by-step visualization of algorithms and data structures
+- 🔄 **Multi-language Support**: View and run code samples in TypeScript, Python, C++, and more
+- 📚 **Learning Content**: Detailed explanations and complexity analysis
+- 🔌 **Framework-Agnostic**: Core logic can be used with any UI framework
 
-- 🎬 Real-time visualization of algorithms
-- 📊 Multiple data structure visualizations
-- 🎯 Step-by-step execution
-- 🎨 Interactive playground
-- 📱 Responsive design
-- 🌙 Dark mode support
+## Project Structure
 
-### Supported Algorithms
+```
+📦 dsa-visualizer/
+├── core/                         # Framework-agnostic business logic
+│   ├── algorithms/               # Algorithm metadata, logic, code samples
+│   ├── data_structures/          # DS definitions, metadata, visual models
+│   ├── visualizer/               # Step-by-step state engine for visualization
+│   ├── interpreter/              # Cross-language execution layer
+│   └── shared/                   # Utilities, types, helpers
+│
+├── ui/                           # UI implementations
+│   ├── sveltekit/                # Initial implementation using SvelteKit
+│   ├── react/                    # Future support
+│   └── vanilla/                  # Optional no-framework support
+│
+├── public/                       # Static assets
+├── docs/                         # Markdown docs for algorithms and DS
+└── tests/                        # Unit tests
+```
 
-- **Sorting**: Bubble Sort, Quick Sort, Merge Sort, Insertion Sort, Selection Sort
-- **Searching**: Linear Search, Binary Search
-- **Graph**: BFS, DFS
-- **More coming soon!**
+## Getting Started
 
-### Supported Data Structures
+### Prerequisites
 
-- Arrays
-- Linked Lists
-- Stacks
-- Queues
-- Binary Trees
-- Graphs
+- Node.js (v16+)
+- npm or yarn
 
-## 🚀 Getting Started
+### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/m8nt0/algorithm-visualizer.git
-
-# Navigate to project directory
-cd algorithm-visualizer
+git clone https://github.com/yourusername/dsa-visualizer.git
+cd dsa-visualizer
 
 # Install dependencies
 npm install
 
-# Start development server
+# Start the development server
 npm run dev
 ```
 
-## 🛠️ Built With
+## Usage
 
-- [Svelte](https://svelte.dev/) - Frontend framework
-- [TypeScript](https://www.typescriptlang.org/) - Type safety
-- [Monaco Editor](https://microsoft.github.io/monaco-editor/) - Code editor
+1. Visit `http://localhost:5173` in your browser
+2. Browse available algorithms and data structures
+3. Select an algorithm to visualize
+4. Use the controls to step through the visualization
+5. View and modify the code samples
+6. Learn about the algorithm's complexity and use cases
 
-## 🤝 Contributing
+## Extending
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+### Adding a New Algorithm
 
-## 📝 License
+1. Add your algorithm definition to `core/algorithms/index.ts`
+2. Provide code samples in multiple languages
+3. Link it to related data structures
+4. Add visualization steps in the playground component
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### Adding a New Data Structure
 
-## 🔍 Keywords
+1. Add your data structure definition to `core/data_structures/index.ts`
+2. Implement the visualizer function to render the structure
+3. Define key operations and their complexity
+4. Add code samples for each operation
 
-algorithm visualization, data structures, computer science, educational tool, learning platform, svelte, typescript, interactive learning, coding education, algorithm animation, programming tutorial, cs learning, algorithm playground
+## Future Plans
 
-## 🌟 Star History
+- Add more algorithms and data structures
+- Implement WASM-based execution for non-JavaScript languages
+- Add React and vanilla JS UI implementations
+- Support for user-defined algorithms and data structures
+- Mobile-responsive design
 
-[![Star History Chart](https://api.star-history.com/svg?repos=m8nt0/algorithm-visualizer&type=Date)](https://star-history.com/#m8nt0/algorithm-visualizer&Date)
+## License
 
-## 📧 Contact
-
-Your Name - [@yourusername](https://twitter.com/yourusername)
-
-Project Link: [https://github.com/m8nt0/algorithm-visualizer](https://github.com/m8nt0/algorithm-visualizer)
+This project is licensed under the MIT License - see the LICENSE file for details.
